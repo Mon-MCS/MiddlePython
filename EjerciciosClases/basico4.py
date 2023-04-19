@@ -29,17 +29,14 @@ class Alumnos:
         else:
             print(f"El alumnos es {self.nombre} {self.apellido}, cuya edad es {self.edad} y sus notas son {self.notas}, por lo que su nota media es {self.media}")        
 alumnos_lista = []
-alumnos_lista.append(Alumnos("Juan", "Pérez", 20, [7,8,9]))
-alumnos_lista.append(Alumnos("María", "González", 22, [6,9,10]))
-alumnos_lista.append(Alumnos("Pedro", "García", 21, [5,7,8]))
-alumnos_lista[0].mostrar()
-alumnos_lista[1].mostrar()
-alumnos_lista[2].mostrar()
+alumno1 = Alumnos("Juan", "Pérez", 20, [7,8,9])
+alumno2 = Alumnos("María", "González", 22, [6,9,10])
+alumno3 = Alumnos("Pedro", "García", 21, [5,7,8])
+alumno1.fmedia()
+alumno2.fmedia()
+alumno3.fmedia()
 
-alumnos_lista[0].fmedia()
-alumnos_lista[1].fmedia()
-alumnos_lista[2].fmedia()
-
-alumnos_lista[0].mostrar()
-alumnos_lista[1].mostrar()
-alumnos_lista[2].mostrar()
+alumnos_lista.append({"nombre":alumno1.nombre, "apellido":alumno1.apellido, "edad":alumno1.edad, "notas":alumno1.notas, "media":alumno1.media})
+alumnos_lista.append({"nombre":alumno2.nombre, "apellido":alumno2.apellido, "edad":alumno2.edad, "notas":alumno2.notas, "media":alumno2.media})
+alumnos_lista.append({"nombre":alumno3.nombre, "apellido":alumno3.apellido, "edad":alumno3.edad, "notas":alumno3.notas, "media":alumno3.media})
+print(alumnos_lista)
