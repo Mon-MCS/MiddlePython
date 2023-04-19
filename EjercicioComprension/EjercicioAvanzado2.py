@@ -1,12 +1,23 @@
 #Crear un diccionario que contenga las palabras en una lista y la cantidad de veces que aparecen en ella.
 
-listaPalabras=list()
+def main():
 
-dicc=dict()
+    while True:
 
-getInputUser=input('Introduce palabras con espacios: ').split()
+        listaPalabras=list()
 
-dicc = {i:getInputUser.count(i) for i in getInputUser}
+        dicc=dict()
 
-print(dicc)
+        getInputUser=input('Introduce palabras con espacios: ').split()
+
+
+        finish=input('¿Desea finalizar(s/n): ')
+        if finish=='s':
+            dicc = {i:getInputUser.count(i) for i in getInputUser}
+            print(dicc)
+            break
+
+
+if __name__=='__main__':
+    main()
 

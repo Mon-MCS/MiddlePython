@@ -6,7 +6,11 @@ import math
 # for x,y in listaNumeros.items():
 #     print(f'El cuadrado de {x} es {y}')
 
-dicc={i:i**2 for i in range(1,6)}
-print(dicc)
+def main():
+        
+    dicc={i:i**2 for i in range(1,6)}
+    print(dicc)
 
+if __name__=='__main__':
+    main()
 
