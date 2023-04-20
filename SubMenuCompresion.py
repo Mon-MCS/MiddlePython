@@ -1,10 +1,10 @@
-import EjercicioAvanzado1 as EA1
-import EjercicioAvanzado2 as EA2
-import EjercicioAvanzado3 as EA3
-import EjercicioBasico1 as EB1
-import EjercicioBasico2 as EB2
-import EjercicioBasico3 as EB3
-import EjercicioClase as EC
+import EjercicioComprension.EjercicioAvanzado1 as EA1
+import EjercicioComprension.EjercicioAvanzado2 as EA2
+import EjercicioComprension.EjercicioAvanzado3 as EA3
+import EjercicioComprension.EjercicioBasico1 as EB1
+import EjercicioComprension.EjercicioBasico2 as EB2
+import EjercicioComprension.EjercicioBasico3 as EB3
+import EjercicioComprension.EjercicioClase as EC
 
 class SubMenuCompresion():
 
@@ -41,8 +41,10 @@ class SubMenuCompresion():
             EB3.main()
         elif parametro=='7':
             EC.main()
+        elif parametro=='8':
+            return
         else:
-            print('elije un valor del 1 al 7')
+            print('elije un valor del 1 al 8')
             
 if __name__=='__main__':      
     ejectua = SubMenuCompresion()

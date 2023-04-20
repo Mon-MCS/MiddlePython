@@ -13,7 +13,12 @@ class Lapiz:
     def escribir(self):
         print(f"Escribiendo con un lápiz de {self.color} y grosor {self.grosor}")
 
-miLapiz = Lapiz()
-miLapiz.escribir()
-miLapiz1 = Lapiz("azul","2B")
-miLapiz1.escribir()
+def main():
+
+    miLapiz = Lapiz()
+    miLapiz.escribir()
+    miLapiz1 = Lapiz("azul","2B")
+    miLapiz1.escribir()
+
+if __name__=='__main__':
+    main()

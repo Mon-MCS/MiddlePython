@@ -13,7 +13,13 @@ class Flor:
     def mostrar_informacion(self):
         print(f"El nombre de la flor es {self.nombre} y su color es {self.color}")
 
-flor1 = Flor("rosa","roja")
-flor2 = Flor("margarita", "blanca/amarilla")
-flor1.mostrar_informacion()
-flor2.mostrar_informacion()
+def main():
+
+    flor1 = Flor("rosa","roja")
+    flor2 = Flor("margarita", "blanca/amarilla")
+    flor1.mostrar_informacion()
+    flor2.mostrar_informacion()
+
+
+if __name__=='__main__':
+    main()
