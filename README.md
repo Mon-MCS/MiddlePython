@@ -1,10 +1,20 @@
-# NextStartPython - EOI Desarrollo Cloud
+# MiddlePython - EOI Desarrollo Cloud
+
+
+
+## ¿Qué contiene este repositorio?
+
+Este repositorio contiene 3 directorios con ejercicios puramente didácticos en Python, y son:  Ejercicios  de JSON, conjuntos y ejercicios de clase.
+
+
 
 ## ¿Quienes colaboran en este repositorio?
 
 - Monset Cabrera
 - José Javier 
 - Miguel Aparicio
+
+
 
 ## ¿Cuáles son las configuraciones locales requeridas?
 
@@ -37,8 +47,3 @@
 4. **Ejecución del programa**
 
 Ejecutar el programa ```Menu.py```
-
-## ¿Qué contiene este repositorio?
-
-Este repositorio contiene 3 directorios con ejercicios puramente didácticos en Python, y son:  Ejercicios  de JSON, conjuntos y ejercicios de clase.
-
