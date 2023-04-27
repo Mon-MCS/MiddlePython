@@ -16,15 +16,7 @@
 
 Este proyecto usa la versión **Python 3.11.0**.
 
-3. **Crear y activar el entorno virtual**
-
-Desde Visual Studio Code, presionamos Ctrl+S+P para abrir la paleta, donde escribimos ```Python: Create Environment``` para crear un entorno virtual ".venv" con la versión **3.11.0**
-
-4. **Instalar las librerias**
-
-Ejecutar el comando ```pip install -r requirements.txt```
-
-5. **Ejecución del programa**
+3. **Ejecución del programa**
 
 Ejecutar el programa que queremos de las carpetas contenidas.
 
