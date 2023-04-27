@@ -18,7 +18,7 @@ Este proyecto usa la versión **Python 3.11.0**.
 
 3. **Ejecución del programa**
 
-Ejecutar el programa que queremos de las carpetas contenidas.
+Ejecutar el programa ```Menu.py```
 
 ## ¿Qué contiene este repositorio?
 
