@@ -12,15 +12,33 @@
 
 ```https://github.com/Mon-MCS/MiddlePython.git```
 
-2. **Comprobar que la versión de Python instalada coincida con la del proyecto:**
+2. **Crear y activar el entorno virtual:**
 
-Este proyecto usa la versión **Python 3.11.0**.
+   - Versión Python 3.11.2
 
-3. **Ejecución del programa**
+
+   - Windows
+
+     - `python -m venv env`
+     - `env\scripts\activate.bat` (Windows command line)
+     - `env\scripts\activate.ps1` (Windows PowerShell)
+
+
+   - MacOs / Linux
+
+     - `python3 -m venv env`
+
+     - `source env/bin/activate`
+
+3. **Instalar las librerías**
+
+- `pip install -r requirements.txt`
+
+4. **Ejecución del programa**
 
 Ejecutar el programa ```Menu.py```
 
 ## ¿Qué contiene este repositorio?
 
-Este repositorio contiene 3 directorios:  que contienen todos los ejercicios  de JSON, conjuntos y ejercicios de clase listos para ejecutar en el lenguaje de programación Python.
+Este repositorio contiene 3 directorios con ejercicios puramente didácticos en Python, y son:  Ejercicios  de JSON, conjuntos y ejercicios de clase.
 
